@@ -28,3 +28,12 @@ header {
     position: relative;
     color: white;
   }
+
+  header img {
+    position: absolute;
+    top: 8vh;
+    left: 8vh;
+    height: 175px;
+    width: 200px;
+
+  }
