@@ -21,7 +21,8 @@ header {
     margin: 0;
     padding: 100px 0;
     font: 44px "Arial";
-    text-align: center;
+    text-align: left;
+    left: 65vh
   }
   
   header h1 {
