@@ -70,3 +70,7 @@ header {
   .fab {
     color: #ff6126;
   }
+
+  .parallax-container {
+    height: "500px";
+  }
