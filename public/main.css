@@ -31,7 +31,7 @@ header {
     padding: 100px 0;
     font: 44px;
     text-align: left;
-    left: 65vh
+    left: 40vh
   }
 
   header img {
@@ -49,4 +49,20 @@ header {
     height: 8px;
     border: none;
     background-image: linear-gradient(#ff9d2f, #ff6126);
+  }
+
+  .card-panel {
+    background-color: #A9A9A9;
+  }
+
+  h5 {
+    font-weight: bold;
+  }
+
+  .fa-quote-left {
+    color: #ff6126;
+  }
+
+  .fa-quote-right {
+    color: #ff6126;
   }
