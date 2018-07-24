@@ -88,3 +88,7 @@ header {
   input[type=range] + .thumb {
     background-color: #ff6126;
   }
+
+  .btn {
+    background-color: #ff6126;
+  }
