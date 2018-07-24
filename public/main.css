@@ -74,8 +74,17 @@ header {
   .parallax-container {
     height: "500px";
   }
-/* 
-  .card {
-    width: 392px;
-    height: 407px
-  } */
+
+  input[type=range]::-webkit-slider-thumb {
+    background-color:#ff6126;
+  }
+  input[type=range]::-moz-range-thumb {
+    background-color:#ff6126;
+  }
+  input[type=range]::-ms-thumb {
+    background-color: #ff6126;
+  }
+
+  input[type=range] + .thumb {
+    background-color: #ff6126;
+  }
