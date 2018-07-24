@@ -46,7 +46,7 @@ header {
   hr {
     width: 35%;
     margin-left: 0;
-    height: 8px;
+    height: 2px;
     border: none;
     background-image: linear-gradient(#ff9d2f, #ff6126);
   }
@@ -74,3 +74,8 @@ header {
   .parallax-container {
     height: "500px";
   }
+/* 
+  .card {
+    width: 392px;
+    height: 407px
+  } */
