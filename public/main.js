@@ -2,6 +2,8 @@
 
   $(document).ready(function(){
     $('.parallax').parallax();
+    $('.fixed-action-btn').floatingActionButton();
+
   });
 
   $(".btn").click(function(){
