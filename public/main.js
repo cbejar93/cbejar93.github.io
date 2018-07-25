@@ -9,7 +9,20 @@
         dataType: "json",
         url: "/ratings",
         success: function(data){
-            console.log(data);
+            const ratings = data;
+            let total = 0;
+            for (var i=0; i< ratings.length; i++){
+               let what = ratings.length;
+               console.log(what);
+                total= ratings[i].range + total
+                console.log(total);
+                if (i = ratings.length){
+                    $("#here").append(total);
+                }
+                
+                
+            }
+            
         }
 
     });
