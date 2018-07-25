@@ -16,8 +16,10 @@
                console.log(what);
                 total= ratings[i].range + total
                 console.log(total);
-                if (i = ratings.length){
-                    $("#here").append(total);
+                if (i+1 === what){
+                    let avg = total/what;
+                    let final =Math.ceil(avg);
+                    $("#here").append(final);
                 }
                 
                 
