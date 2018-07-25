@@ -8,10 +8,10 @@ var app = express()
 module.exports = app => {
 app.post("/rate", async (req, res) =>{
     const value = req.body;
-    console.log(value);
+    console.log(value.range);
 
     const ranges = new Range({
-        range: value
+        range: value.range
       });
 
       try {
