@@ -2,7 +2,17 @@
 
   $(document).ready(function(){
     $('.parallax').parallax();
-    $('.fixed-action-btn').floatingActionButton();
+    $('.fixed-action-btn').floatingActionButton(); 
+  
+
+    $.ajax({
+        dataType: "json",
+        url: "/ratings",
+        success: function(data){
+            console.log(data);
+        }
+
+    });
 
   });
 

@@ -20,6 +20,14 @@ app.post("/rate", async (req, res) =>{
       } catch (err) {
         res.send(400, err);
       }
+});
+
+app.get("/ratings", async (req,res)=>{
+  const rating = await Range.find({})
+
+  res.send(rating);
+ 
+
 })
 
 }
