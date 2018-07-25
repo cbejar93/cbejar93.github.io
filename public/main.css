@@ -92,3 +92,22 @@ header {
   .btn {
     background-color: #ff6126;
   }
+
+  .fa-circle {
+    color: #ff6126;
+  }
+
+  .fa-layers-text {
+    color: #ff6126;
+  }
+
+  .contain-i-e-s,.fa-circle{
+    height:100px; width:100px;
+  }
+  .contain-i-e-s{
+    position:relative;
+  }
+  h2{
+    text-align:center; position:absolute;
+    /* bottom: 1px; */
+  }
