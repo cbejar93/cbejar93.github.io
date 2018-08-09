@@ -8,7 +8,7 @@
     },
     "repository": {
       "type": "git",
-      "url": "git+https://github.com/cbejar93/cbejar93.github.io"
+      "url": "git+https://github.com/cbejar93/cbejar93.github.io.git"
     },
     "author": "carlos",
     "license": "ISC",
