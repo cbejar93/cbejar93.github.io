@@ -242,18 +242,7 @@ header {
     }
   }
 
-  @media screen and (max-width: 875px){
-    .main-pic {
-      top: 10%;
-      left: 40%;
-      height: 150px;
-      width:150px;
-    }
-
-    .overflow-wrap{
-      height: 150px;
-    }
-  }
+  
 
   @media screen and (max-width: 680px) {
 
@@ -268,8 +257,8 @@ header {
       /* background-color: olive; */
       top: 64%;
       left: 37%;
-      height: 80px;
-      width:80px;
+      height: 100px;
+      width:100px;
     }
 
     #typed2{
@@ -293,10 +282,38 @@ header {
     }
 
     #typed2{
-      font-size: 25px;
+      font-size: 20px;
     }
 
     .first{
-      margin-top: 10%;
+      margin-top: 18%;
+    }
+  }
+
+  @media screen and (max-width: 875px){
+    .main-pic {
+      top: 62%;
+      left: 30%;
+      height: 150px;
+      width:150px;
+    }
+
+    .overflow-wrap{
+      height: 250px;
+    }
+
+    .first{
+      margin-top: 20%;
+    }
+
+    #typed{
+      font-size: 45px;
+      margin-top: 3%;
+    }
+
+    #typed2{
+      font-size: 25px;
+      margin-top: 3%;
+
     }
   }
