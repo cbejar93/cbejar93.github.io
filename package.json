@@ -20,6 +20,6 @@
     "animejs": "^2.2.0",
     "body-parser": "^1.18.3",
     "express": "^4.16.3",
-    "mongoose": "^5.1.1"
+    "mongoose": "^5.7.5"
   }
 }
